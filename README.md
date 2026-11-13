@@ -1,6 +1,6 @@
 # Password Strength Checker
 
-A beginner-friendly Python command-line tool that gives local feedback on password strength. It does not store or transmit the password.
+A beginner-friendly Python command-line tool that gives local feedback on password strength using five regex rules: length, uppercase, lowercase, digit, and special character. It does not store or transmit the password.
 
 ## Requirements
 
@@ -33,7 +33,7 @@ PasswordCheckerProject/
 └── README.md
 ```
 
-The existing `password_log.txt` folder is intentionally unused: saving passwords would put users at risk.
+The `password_log.txt` file-reading/reporting approach is intentionally not used: saving passwords or reports containing passwords would put users at risk. The useful regex scoring rules are implemented in `PASSWORD_RULES`.
 
 ## Current limitations
 
